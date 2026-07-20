@@ -24,9 +24,9 @@ repository               : "etn007/etn_website"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Ethan Savio Coutinho"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Math Major with an interest in Algebra, Analysis and Number Theory"
   location         : "Earth"
   employer         : "Red Brick University"
   uri              : # URL
