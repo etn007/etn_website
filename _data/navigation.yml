@@ -9,17 +9,17 @@
 
 main:
   - title: "Research Experience"
-    url: /rexperience/
+    url: rexperience/
 
   - title: "Personal Projects"
-    url: /projects/    
+    url: projects/    
     
         
   - title: "Blog Posts"
-    url: /year-archive/
+    url: year-archive/
     
   - title: "CV"
-    url: /cv/
+    url: cv/
     
   # - title: "CV"
   #   url: /cv-json/
