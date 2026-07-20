@@ -1,52 +1,27 @@
 ---
 layout: single
-title: Ethan's Website
+title: My Project Portfolio
 permalink: /rexperience/
 ---
 
-{% include base_path %}
-{% for post in site.pages %}
-  {% include archive-single.html %}
-{% endfor %}
+<h1>Project Portfolio</h1>
+<p>Welcome to my portfolio. Click the button below to view my full project document and case studies.</p>
 
+<!-- Link to your actual PDF file -->
+<a href="/path/to/your-portfolio.pdf" target="_blank" class="btn">📄 View Projects (PDF)</a>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Project Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 600px;
-            margin: 50px auto;
-            padding: 20px;
-            text-align: center;
-            line-height: 1.6;
-        }
-        .btn {
-            display: inline-block;
-            background-color: #007BFF;
-            color: white;
-            padding: 12px 24px;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-            margin-top: 20px;
-        }
-        .btn:hover {
-            background-color: #0056b3;
-        }
-    </style>
-</head>
-<body>
-
-    <h1>Project Portfolio</h1>
-    <p>Welcome to my portfolio. Click the button below to view my full project document and case studies.</p>
-
-    <!-- This button opens the PDF in a new browser tab -->
-    <a href="your-portfolio.pdf" target="_blank" class="btn">📄 View Projects (PDF)</a>
-
-</body>
-</html>
+<style>
+    .btn {
+        display: inline-block;
+        background-color: #007BFF;
+        color: white;
+        padding: 12px 24px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    .btn:hover {
+        background-color: #0056b3;
+    }
+</style>
